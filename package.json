@@ -9,11 +9,11 @@
   "license": "MIT",
   "dependencies": {
     "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
     "koa-ejs": "^4.3.0",
     "koa-json": "^2.0.2",
     "koa-router": "^10.0.0",
     "node-dev": "^6.2.0"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
