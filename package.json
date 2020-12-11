@@ -2,6 +2,18 @@
   "name": "node-koa2",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
   "author": "violateer <1828257089@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.13.0",
+    "koa-ejs": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
