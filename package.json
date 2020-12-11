@@ -1,0 +1,7 @@
+{
+  "name": "node-koa2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "violateer <1828257089@qq.com>",
+  "license": "MIT"
+}
