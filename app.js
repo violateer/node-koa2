@@ -10,6 +10,13 @@ const router = new KoaRouter();
 // json pretty
 app.use(json());
 
+// DB
+const things = [
+    { name: 'my family' },
+    { name: 'programming' },
+    { name: 'music' }
+];
+
 // 配置模板引擎
 render(app, {
     root: path.join(__dirname, 'views'),
@@ -22,7 +29,8 @@ render(app, {
 // 路由跳转
 router.get('/', async ctx => {
     await ctx.render('index', {
-        title: 'Things i love...'
+        title: 'Things i love...',
+        things
     });
 });
 
